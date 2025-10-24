@@ -115,6 +115,7 @@ def older_than_100(teams_list: list) -> list:
         current_year = date.today().year
         team_years = current_year
         # founded
+        # team_years = current_year - founded ???
         if team_years > 100:
             teams_older.append((team, founded))
 
